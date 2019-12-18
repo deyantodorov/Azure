@@ -84,6 +84,6 @@ az batch task file download `
 
  Write-Output('7. Delete resources')
 
- az batch pool delete -n $poolName
+ az batch pool delete --pool-id $poolName
 
  az group delete -n $rgName
