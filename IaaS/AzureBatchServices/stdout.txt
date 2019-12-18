@@ -1,0 +1,16 @@
+AZ_BATCH_TASK_DIR=/mnt/batch/tasks/workitems/myJob/job-1/mytask1
+AZ_BATCH_NODE_STARTUP_DIR=/mnt/batch/tasks/startup
+AZ_BATCH_CERTIFICATES_DIR=/mnt/batch/tasks/workitems/myJob/job-1/mytask1/certs
+AZ_BATCH_ACCOUNT_URL=https://mybatchacc2108378593.westeurope.batch.azure.com/
+AZ_BATCH_TASK_WORKING_DIR=/mnt/batch/tasks/workitems/myJob/job-1/mytask1/wd
+AZ_BATCH_NODE_SHARED_DIR=/mnt/batch/tasks/shared
+AZ_BATCH_TASK_USER=_azbatch
+AZ_BATCH_NODE_ROOT_DIR=/mnt/batch/tasks
+AZ_BATCH_JOB_ID=myJob
+AZ_BATCH_NODE_IS_DEDICATED=true
+AZ_BATCH_NODE_MOUNTS_DIR=/mnt/batch/tasks/fsmounts
+AZ_BATCH_NODE_ID=tvmps_a40cf32c37405dce393514df3c873821eca152ff4bab9328c0200cc29dd7887c_d
+AZ_BATCH_POOL_ID=myPool
+AZ_BATCH_TASK_ID=mytask1
+AZ_BATCH_ACCOUNT_NAME=mybatchacc2108378593
+AZ_BATCH_TASK_USER_IDENTITY=PoolNonAdmin
