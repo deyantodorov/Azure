@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Storage", "Storage\Storage.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunctionApp", "FunctionApp\FunctionApp.csproj", "{81A3C63C-A6A2-4D75-A9BB-FAED13EEA44E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DurableFunctionApp", "DurableFunctionApp\DurableFunctionApp.csproj", "{3E6ECD62-16D3-4703-9D89-29163ADB157C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DurableFunctionApp", "DurableFunctionApp\DurableFunctionApp.csproj", "{3E6ECD62-16D3-4703-9D89-29163ADB157C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureSearch", "AzureSearch\AzureSearch.csproj", "{B08539A0-16D1-4AFF-942C-7278A29550A9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{3E6ECD62-16D3-4703-9D89-29163ADB157C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E6ECD62-16D3-4703-9D89-29163ADB157C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3E6ECD62-16D3-4703-9D89-29163ADB157C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B08539A0-16D1-4AFF-942C-7278A29550A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B08539A0-16D1-4AFF-942C-7278A29550A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B08539A0-16D1-4AFF-942C-7278A29550A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B08539A0-16D1-4AFF-942C-7278A29550A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
