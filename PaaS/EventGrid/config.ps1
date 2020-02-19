@@ -17,9 +17,9 @@ $stgAccKey = $(az storage account keys list `
 
 $stgAccKey
 
-ngrok http -host-header=localhost 5000
+ngrok http -host-header=localhost 5001
 
-$funcappdns = "7e345ca4.ngrok.io"
+$funcappdns = "0ce250f0.ngrok.io"
 $viewrendpoint = "https://$funcappdns/api/updates"
 
 $storageid = $(az storage account show `
