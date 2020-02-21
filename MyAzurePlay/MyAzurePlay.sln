@@ -19,7 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DurableFunctionApp", "Durab
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureSearch", "AzureSearch\AzureSearch.csproj", "{B08539A0-16D1-4AFF-942C-7278A29550A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventGrid", "EventGrid\EventGrid.csproj", "{452B08FE-3540-4088-A20B-4B3B8C5B0073}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventGrid", "EventGrid\EventGrid.csproj", "{452B08FE-3540-4088-A20B-4B3B8C5B0073}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceBus", "ServiceBus\ServiceBus.csproj", "{E90A29AC-102E-471C-93A4-1C6CF469FA31}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{452B08FE-3540-4088-A20B-4B3B8C5B0073}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{452B08FE-3540-4088-A20B-4B3B8C5B0073}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{452B08FE-3540-4088-A20B-4B3B8C5B0073}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E90A29AC-102E-471C-93A4-1C6CF469FA31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E90A29AC-102E-471C-93A4-1C6CF469FA31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E90A29AC-102E-471C-93A4-1C6CF469FA31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E90A29AC-102E-471C-93A4-1C6CF469FA31}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
