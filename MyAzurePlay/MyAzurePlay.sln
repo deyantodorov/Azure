@@ -21,7 +21,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureSearch", "AzureSearch\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventGrid", "EventGrid\EventGrid.csproj", "{452B08FE-3540-4088-A20B-4B3B8C5B0073}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceBus", "ServiceBus\ServiceBus.csproj", "{E90A29AC-102E-471C-93A4-1C6CF469FA31}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceBus", "ServiceBus\ServiceBus.csproj", "{E90A29AC-102E-471C-93A4-1C6CF469FA31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureKeyVault", "AzureKeyVault\AzureKeyVault.csproj", "{9FD910AF-A77E-4ADC-B934-0649CE3BC0E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StorageServicePrinciple", "StorageServicePrinciple\StorageServicePrinciple.csproj", "{4EEFD903-FA0A-44DF-A433-035472F53088}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +73,14 @@ Global
 		{E90A29AC-102E-471C-93A4-1C6CF469FA31}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E90A29AC-102E-471C-93A4-1C6CF469FA31}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E90A29AC-102E-471C-93A4-1C6CF469FA31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FD910AF-A77E-4ADC-B934-0649CE3BC0E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FD910AF-A77E-4ADC-B934-0649CE3BC0E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FD910AF-A77E-4ADC-B934-0649CE3BC0E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FD910AF-A77E-4ADC-B934-0649CE3BC0E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EEFD903-FA0A-44DF-A433-035472F53088}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EEFD903-FA0A-44DF-A433-035472F53088}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EEFD903-FA0A-44DF-A433-035472F53088}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EEFD903-FA0A-44DF-A433-035472F53088}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
