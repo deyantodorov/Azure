@@ -27,9 +27,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureKeyVault", "AzureKeyVa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StorageServicePrinciple", "StorageServicePrinciple\StorageServicePrinciple.csproj", "{4EEFD903-FA0A-44DF-A433-035472F53088}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebBlobLogging", "WebBlobLogging\WebBlobLogging.csproj", "{1A0DE5E8-B90A-4864-80F7-53569E75D856}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebBlobLogging", "WebBlobLogging\WebBlobLogging.csproj", "{1A0DE5E8-B90A-4864-80F7-53569E75D856}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfigureLoggingByServicePrincipal", "ConfigureLoggingByServicePrincipal\ConfigureLoggingByServicePrincipal.csproj", "{5E58B189-E98E-422E-8F7F-78A587F76131}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConfigureLoggingByServicePrincipal", "ConfigureLoggingByServicePrincipal\ConfigureLoggingByServicePrincipal.csproj", "{5E58B189-E98E-422E-8F7F-78A587F76131}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppInsightsDemo", "AppInsightsDemo\AppInsightsDemo.csproj", "{2048F57F-271D-4CBA-886B-54E7958DA4B2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{5E58B189-E98E-422E-8F7F-78A587F76131}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E58B189-E98E-422E-8F7F-78A587F76131}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E58B189-E98E-422E-8F7F-78A587F76131}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2048F57F-271D-4CBA-886B-54E7958DA4B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2048F57F-271D-4CBA-886B-54E7958DA4B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2048F57F-271D-4CBA-886B-54E7958DA4B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2048F57F-271D-4CBA-886B-54E7958DA4B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
