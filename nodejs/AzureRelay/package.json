@@ -1,0 +1,14 @@
+{
+  "name": "azurerelay",
+  "version": "1.0.0",
+  "description": "azure relay sample listener and sender",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Deyan Todorov",
+  "license": "ISC",
+  "dependencies": {
+    "hyco-ws": "^1.0.5"
+  }
+}
