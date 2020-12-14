@@ -1,0 +1,11 @@
+@rooturl = http://localhost:7071
+
+POST {{rooturl}}/api/start HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Firstname Lastname",
+    "email": "Firstname.Lastname@mail.com"
+}
+
+###
